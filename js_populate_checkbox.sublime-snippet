@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+					var xStateList = xSelectedRegionObject.xSelectedRegionValue.split(',');
+					for(x=0;x<xStateList.length;x++){
+						xCurrentState = xStateList[x];
+						xCurrentInput = 'cbState'+xCurrentState;
+						document.getElementById(xCurrentInput).checked = true;
+						}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js_populate_checkbox</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

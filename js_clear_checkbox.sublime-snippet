@@ -1,0 +1,50 @@
+<snippet>
+	<content><![CDATA[
+	function clearCheckedStates(){
+		var xStateListObject = getCheckedStates();
+		
+		var xStateList = xStateListObject.xCheckedStatesArray;
+		
+		for(x=0;x<xStateList.length;x++){
+			xCurrentState = xStateList[x];
+			xCurrentInput = 'cbState'+xCurrentState;
+			document.getElementById(xCurrentInput).checked = false;
+			}
+		}
+	
+	
+	function getCheckedStates(){
+		var xCheckedStatesArray = new Array();
+		var xCheckedStatesList = new String();
+		var xCheckBoxGroupName = 'cbxState';
+		var xCheckedStates = $('input:checkbox:checked');
+		
+		
+		xCheckedStates.each(
+			function(){
+				if(this.name == xCheckBoxGroupName){
+					// build list
+					if(xCheckedStatesList.length == 0){
+						xCheckedStatesList = this.value;
+						}else{
+						xCheckedStatesList = xCheckedStatesList + ',' + this.value;
+						}
+					// build array
+					xCheckedStatesArray.push(this.value);
+					}
+				}
+			);
+		
+		var xReturnObject = new Object();
+			xReturnObject.xCheckedStatesArray = xCheckedStatesArray;
+			xReturnObject.xCheckedStatesList = xCheckedStatesList;
+			
+	 return xReturnObject;
+	}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js_clear_checkbox</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

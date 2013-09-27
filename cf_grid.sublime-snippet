@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+<cfgrid name="gridTruckBoardSearch"
+height="295"
+format="html"
+striperows="yes" 
+selectonload="no" autowidth="no"
+pagesize="10" appendKey="no"
+bind="cfc:cfc.boards.retrieve.retrieve_truck_search_results.funcRetrieveTruckSearchResults(
+{cfgridpage},
+{cfgridpagesize},
+{cfgridsortcolumn},
+{cfgridsortdirection},
+#xSearchTrucks.xContent#)">
+<cfgridcolumn name="truck_board" header="Truck Board" width="70"/>
+<cfgridcolumn name="age" header="Age" width="40"/>
+<cfgridcolumn name="truck_uID" display="false" header="uID"/>
+</cfgrid>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf_grid</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+		<cfoutput>
+			<cfheader name="Content-Disposition" value="inline; filename=#xFileName#.xls">
+			<cfcontent type="application/vnd.ms-excel">
+			<table border="">
+				<tr>
+					<td><b>>Report Type:></b></td>
+					<td>#xReportDescription#</td>
+				</tr>
+				<tr>
+					<td><b><u>Invoice Selected:</u></b></td>
+					<td>#xInvoiceNumber#</td>
+				</tr>
+			</table>
+			<br><br>
+			<!--- main table data --->
+			#xTable#
+		</cfoutput>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf_download_excel</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

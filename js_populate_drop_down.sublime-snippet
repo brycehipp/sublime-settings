@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+		for(x=0;x<xEvent.XRECORDCOUNT;x++){
+			var value_1 = xEvent.XRESULTS[x].XREGIONNAME;
+			var value_2 = xEvent.XRESULTS[x].XREGIONID;
+			var xOption = document.createElement('option');
+				xOption.text = value_1; 
+				xOption.value = value_2; 
+			try{
+				xGeographicDestinationRegion.add(xOption, null);
+				}catch(ex){
+				xGeographicDestinationRegion.add(xOption);
+				}			
+			}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js_populate_drop_down</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

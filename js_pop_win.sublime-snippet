@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+	function createNewBaseContract(e){
+		var winName = 'xPopCreateBaseContract';
+		var winTitle = 'Create Base Contract';
+		ColdFusion.Window.create(
+				winName, 
+				winTitle, 
+				'/ltl_module/complex/pop_win/base_contract_creation/pop_base_contract_creation.cfm', 
+				{x:200,y:e.clientY+10,height:175,width:400,modal:true,closable:true, draggable:true,resizable:true,center:true,initshow:true});
+				document.getElementById(ColdFusion.Window.getWindowObject(winName).body.id).className = 'windowBody';
+		  
+		  // Build a Window.destroy() function relative to the created window
+	      ColdFusion.Window.onHide(winName,winDestroyerBaseContractCreation);
+	
+	      // Get the Window Object and Set Fade In Effects
+	      var winOb = ColdFusion.Window.getWindowObject(winName);
+	      var el = winOb.getEl();
+	      el.fadeIn({duration: .75});    
+	      return;
+		}
+	function winDestroyerBaseContractCreation(winName){
+		ColdFusion.Window.destroy(winName,true);
+		ColdFusion.Grid.refresh('gridLTLContractSearch',false);
+		}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js_pop_win</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

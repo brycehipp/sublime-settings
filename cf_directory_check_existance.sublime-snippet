@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+		<!--- retreive file path --->
+		<cfquery name="qryRetrieveTempDocumentPath" datasource="#session.edgeDSN#">
+			select temp_folder_location
+			from company_details
+		</cfquery>
+		<cfset xDefaultTempPath = qryRetrieveTempDocumentPath.temp_folder_location/>
+		<!--- make sure directory exists --->
+		<cfif not directoryExists(xDefaultTempPath)>
+			<cfdirectory action = "create" directory = "#xDefaultTempPath#"/>
+			</cfif>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf_directory_check_existance</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

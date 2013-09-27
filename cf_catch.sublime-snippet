@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+			<cfcatch type="any">
+				<cfset xReturnObject.xError = 'Error - '/>
+				<cfreturn xReturnObject/>
+				<cfabort/>
+			</cfcatch>		
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf_catch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

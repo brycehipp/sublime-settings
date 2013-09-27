@@ -1,0 +1,48 @@
+<snippet>
+	<content><![CDATA[
+			<cfquery name="qryCarrierNotifyRamps" datasource="#session.edgeDSN#">
+				select 	carrier_notify_ramps.carrier_notify_id, 
+						carrier_notify_ramps.carrier_id, 
+						carrier_notify_ramps.ramp_id,
+						rail_ramps.ramp_desc, 
+						carrier_notify_ramps.city, 
+						carrier_notify_ramps.state, 
+						carrier_notify_ramps.phone, 
+						carrier_notify_ramps.fax
+				from carrier_notify_ramps
+				join rail_ramps on carrier_notify_ramps.ramp_id = rail_ramps.ramp_id
+				where carrier_notify_ramps.carrier_id = <cfqueryparam value="38905" cfsqltype="cf_sql_integer">
+				order by carrier_notify_ramps.carrier_notify_id
+			</cfquery>
+		
+		
+		
+				<cfheader name="Content-Disposition" value="inline; filename=RoadLinkUSAMidwest_CNM_20130317.xls">
+				<cfcontent type="application/vnd.ms-excel">
+					<table border="1">
+						<tr>
+							<td><b>Ramp<b></td>
+							<td><b>City<b></td>
+							<td><b>State<b></td>
+							<td><b>Phone<b></td>
+							<td><b>Fax</b></td>
+						</tr>	
+						<cfoutput>
+							<cfloop from="1" to="#qryCarrierNotifyRamps.recordCount#" index="x">
+								<tr>
+									<td>#qryCarrierNotifyRamps.ramp_desc[x]#</td>
+									<td>#qryCarrierNotifyRamps.city[x]#</td>
+									<td>#qryCarrierNotifyRamps.state[x]#</td>
+									<td>#qryCarrierNotifyRamps.phone[x]#</td>
+									<td>#qryCarrierNotifyRamps.fax[x]#</td>
+								</tr>	
+							</cfloop>
+						</cfoutput>
+					</table>		
+					
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf_report_dump</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

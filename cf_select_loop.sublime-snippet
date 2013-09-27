@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+		<cfselect name="cbLTLReplicateBaseContractType" id="cbLTLReplicateBaseContractType" class="formInput">
+			<cfoutput>
+				<cfloop query="xContractTypes">
+					<option value="#contract_type_id#">#contract_type_description#</option>
+				</cfloop>
+			</cfoutput>
+		</cfselect>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf_select_loop</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

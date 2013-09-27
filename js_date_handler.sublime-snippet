@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+	handleBaseContractEffective = function() {
+		$('#nputLTLBaseContractEffectiveDate').datepicker({
+			numberOfMonths: 1,
+			showButtonPanel: true,
+			changeMonth: true,
+			changeYear: true,
+			showOtherMonths: true,
+			duration: 0,
+			constrainInput: false,
+			});	
+		};
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js_date_handler</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

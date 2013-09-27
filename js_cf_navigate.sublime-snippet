@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+ColdFusion.navigate('/ltl_module/complex/views/contract/ltl_negotiated_contract_factors_include.cfm?xNegotiatedContractID='+document.getElementById('nputHiddenSelectedNegotiatedContractID').value,'divNegotiatedFactorInclude');
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js_cf_navigate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

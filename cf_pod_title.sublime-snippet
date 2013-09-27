@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<cfset xPodTitle = 'Transportation Type Summary' & '&nbsp;&nbsp;&nbsp;&nbsp;' & '<a onClick="toggleSPAAnalyticView(2)" href="##">View</a>'/>
+						<cfpod title="#xPodTitle#"
+							height="200"
+							width="293"
+							headerstyle="background-color:##d0d0d0;font-size:10px;color:##484848;text-align:left;">
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf_pod_title</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

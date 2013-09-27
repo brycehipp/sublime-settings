@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<input type="button" name="btnMarkPaid" id="btnMarkPaid" value="Mark Paid" class="formButton" onMouseOver="goLite(this.form.name,this.name)" onMouseOut="goDim(this.form.name,this.name)" onclick="javascript:markInvPaid('#shipment_id#','#qryARHeader.sequence#')">
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>html_button</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

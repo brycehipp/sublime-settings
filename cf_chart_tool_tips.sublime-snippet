@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+colIndex:${colIndex}
+rowIndex: ${rowIndex}
+colLabel: ${colLabel}
+rowLabel: ${rowLabel}
+value: ${value}
+desc: ${desc}
+colTotal: ${colTotal}
+rowTotal: ${rowTotal}
+colPercent: ${colPercent}
+colTitle: ${colTitle}
+rowTitle: ${rowTitle}
+valueTitle: ${valueTitle}
+nextValue: ${nextValue}
+prevValue: ${prevValue}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf_chart_tool_tips</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

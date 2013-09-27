@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+	<cfargument name="page" type="numeric" required="true">
+	<cfargument name="pageSize" type="numeric" required="true">
+	<cfargument name="gridsortcolumn" type="string" required="false" default="">
+	<cfargument name="gridsortdir" type="string" required="false" default="">	
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf_grid_arguments</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

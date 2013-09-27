@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+	<cffunction name="" access="remote" returnType="struct">
+	
+
+
+
+	</cffunction>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf_function</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

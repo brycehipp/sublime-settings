@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+		<cfquery name="qryRetrieveTempDocumentPath" datasource="#session.edgeDSN#">
+			select temp_folder_location
+			from company_details
+		</cfquery>
+		<cfset xDefaultTempPath = qryRetrieveTempDocumentPath.temp_folder_location/>
+		<!--- write dump file --->
+		<cfsavecontent variable="xDumpRequest"><cfdump var="#xmlParse(loginRequestXML)#"/></cfsavecontent>
+		<cffile action="write" output="#xDumpRequest#" file="#xDefaultTempPath#\dat360_login_request.html"/>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf_dump_file</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

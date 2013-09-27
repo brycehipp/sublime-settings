@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+
+<cfset TypeTest =
+    { array   = []
+    , struct  = {}
+    , string  = "123"
+    , number  = 123
+    , boolean = true
+    , date    = Now()
+    , number2 = 1+1
+    }/>
+
+<cfloop item="key" collection=#TypeTest# >
+    <cfoutput><br/> #key# = #getMetadata(typetest[key]).getName()#</cfoutput>
+</cfloop>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cf_variable_type</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

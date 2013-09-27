@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+	function deleteInvoice(){
+		
+		xSelectedDeleteInvoice = document.getElementById('cbPreviousInvoice').value;
+		// ask if they really want to delete invoice
+		if(xSelectedDeleteInvoice.length > 0){
+			var xChickenString = "Are you sure you want to delete invoice"+"'"+ xSelectedDeleteInvoice +"'"+" and all associated information?";  
+			var xProceed = chickenSwitch(xChickenString);
+			if(xProceed == true){
+				// delete
+				classSpaRetrieveInvoiceInfo.setCallbackHandler(deleteInvoice_result);
+				classSpaRetrieveInvoiceInfo.setErrorHandler(deleteInvoice_error);
+				classSpaRetrieveInvoiceInfo.deleteInvoice(xSelectedDeleteInvoice);
+				}
+			}else{
+			alert('Please select an invoice before proceeding.');
+			}
+		}
+	
+	function chickenSwitch(xChickenString){
+		if(confirm(xChickenString)) {
+			return true;
+			}else{
+			return false;
+			} 
+		}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js_chicken_switch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

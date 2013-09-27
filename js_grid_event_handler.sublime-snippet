@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+	function selectContractFromGrid(xGrid,xRowIndex,xEvent){
+		
+		xSelectedContractID = xGrid.getSelectionModel().getSelected().data.CONTRACT_ID;
+		xSelectedContractLaneDetailID = xGrid.getSelectionModel().getSelected().data.CONTRACT_LANE_DETAIL_ID;
+		xSelectedCarrierID = xGrid.getSelectionModel().getSelected().data.CARRIER_ID;
+		
+		document.getElementById('nputHiddenSelectedContractID').value = xSelectedContractID;
+		document.getElementById('nputHiddenSelectedCarrierID').value = xSelectedCarrierID;
+		document.getElementById('nputHiddenSelectedContractLaneDetailID').value = xSelectedContractLaneDetailID;
+		document.getElementById('nputHiddenDetailsSelectedCarrierID').value = xSelectedCarrierID;
+		// focus contract details pane
+		ColdFusion.Layout.selectAccordion('accLtlContractMain','areaLtlContractSelectedMain');
+		}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js_grid_event_handler</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

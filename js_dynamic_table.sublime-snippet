@@ -1,0 +1,238 @@
+<snippet>
+	<content><![CDATA[
+	function updateCommoditiesRepeater(){
+		// clear current stops screen
+		document.getElementById('divRequestCommodities').innerHTML = "";
+		xCommodityCounter = 0;
+			// basic table tags
+			html_openTable = "<table width='300px' cellpadding='0' border='0' cellspacing='3'>";
+			html_openTR = "<tr>";
+			html_closeTR = "</tr>";
+			html_openTD = "<td>";
+			html_closeTD = "</td>";
+			html_closeTable = "</table>";
+		
+		// build screen repeater
+		for(x=0;x<xObjRateRequest.xCommodities.length;x++){
+			var xNewCommodityDiv = document.createElement('div');
+			/* drop some tables on em */
+			html_commodityCounter = "<div class='formElement'><label style='width:10px;'>"+(xCommodityCounter+1)+"</label>";
+			html_pieces = "<input type='text' name='nputLTLRequestCommodityPieces' id='nputLTLRequestCommodityPieces' value='"+xObjRateRequest.xCommodities[x].xPieces+"' class='formInput' style='width:50px;' onChange='javascript:updateCommoditiesArray("+xCommodityCounter+",this.id,this.value)'/></div>"
+			/* set weight */
+			html_type = "<select name='cbLTLRequestCommodityPackageType' id='cbLTLRequestCommodityPackageType' class='formInput' style='width:100px;' onChange='javascript:updateCommoditiesArray("+xCommodityCounter+",this.id,this.value)'>";
+				if(xObjRateRequest.xCommodities[x].xType == '1'){
+					html_type += "<option value='1' selected>Pallets/Skids</option>";
+					}else{
+					html_type += "<option value='1'>Pallets/Skids</option>";
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '2'){
+					html_type += "<option value='2' selected>Boxes</option>";
+					}else{
+					html_type += "<option value='2'>Boxes</option>";
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '3'){
+					html_type += "<option value='3' selected>Crates</option>"
+					}else{
+					html_type += "<option value='3'>Crates</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '4'){
+					html_type += "<option value='4' selected>Drums/Barrels</option>"
+					}else{
+					html_type += "<option value='4'>Drums/Barrels</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '5'){
+					html_type += "<option value='5' selected>Bundles</option>"
+					}else{
+					html_type += "<option value='5'>Bundles</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '6'){
+					html_type += "<option value='6' selected>Cartons</option>"
+					}else{
+					html_type += "<option value='6'>Cartons</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '7'){
+					html_type += "<option value='7' selected>Pails</option>"
+					}else{
+					html_type += "<option value='7'>Pails</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '8'){
+					html_type += "<option value='8' selected>Other</option>"
+					}else{
+					html_type += "<option value='8'>other</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '9'){
+					html_type += "<option value='9' selected>Cases</option>"
+					}else{
+					html_type += "<option value='9'>Cases</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '10'){
+					html_type += "<option value='10' selected>Pieces</option>"
+					}else{
+					html_type += "<option value='10'>Pieces</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '11'){
+					html_type += "<option value='11' selected>Rolls</option>"
+					}else{
+					html_type += "<option value='11'>Rolls</option>"
+					}
+				// skipped package_type_id 12 '1/2 TL'
+				if(xObjRateRequest.xCommodities[x].xType == '13'){
+					html_type += "<option value='13' selected>Bags</option>"
+					}else{
+					html_type += "<option value='13'>Bags</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '14'){
+					html_type += "<option value='14' selected>Magazine</option>"
+					}else{
+					html_type += "<option value='14'>Magazine</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '15'){
+					html_type += "<option value='15' selected>Package</option>"
+					}else{
+					html_type += "<option value='15'>Package</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '16'){
+					html_type += "<option value='16' selected>Bales</option>"
+					}else{
+					html_type += "<option value='16'>Bales</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xType == '17'){
+					html_type += "<option value='17' selected>Bulk</option>"
+					}else{
+					html_type += "<option value='17'>Bulk</option>"
+					}
+				// skipped package_type_id 18 'TL'
+				html_type += "</select>";
+
+			/* set class */
+			html_class = "<select name='cbLTLRequestCommodityClass' id='cbLTLRequestCommodityClass' class='formInput' style='width:50px;' onChange='javascript:updateCommoditiesArray("+xCommodityCounter+",this.id,this.value)'>";
+				if(xObjRateRequest.xCommodities[x].xClass == '50'){
+					html_class += "<option value='50' selected>50</option>"
+					}else{
+					html_class += "<option value='50'>50</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '55'){
+					html_class += "<option value='55' selected>55</option>"
+					}else{
+					html_class += "<option value='55'>55</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '60'){
+					html_class += "<option value='60' selected>60</option>"
+					}else{
+					html_class += "<option value='60'>60</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '65'){
+					html_class += "<option value='65' selected>65</option>"
+					}else{
+					html_class += "<option value='65'>65</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '70'){
+					html_class += "<option value='70' selected>70</option>"
+					}else{
+					html_class += "<option value='70'>70</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '77.5'){
+					html_class += "<option value='77.5' selected>77.5</option>"
+					}else{
+					html_class += "<option value='77.5'>77.5</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '85'){
+					html_class += "<option value='85' selected>85</option>"
+					}else{
+					html_class += "<option value='85'>85</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '92.5'){
+					html_class += "<option value='92.5' selected>92.5</option>"
+					}else{
+					html_class += "<option value='92.5'>92.5</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '100'){
+					html_class += "<option value='100' selected>100</option>"
+					}else{
+					html_class += "<option value='100'>100</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '110'){
+					html_class += "<option value='110' selected>110</option>"
+					}else{
+					html_class += "<option value='110'>110</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '125'){
+					html_class += "<option value='125' selected>125</option>"
+					}else{
+					html_class += "<option value='125'>125</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '150'){
+					html_class += "<option value='150' selected>150</option>"
+					}else{
+					html_class += "<option value='150'>150</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '175'){
+					html_class += "<option value='175' selected>175</option>"
+					}else{
+					html_class += "<option value='175'>175</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '200'){
+					html_class += "<option value='200' selected>200</option>"
+					}else{
+					html_class += "<option value='200'>200</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '250'){
+					html_class += "<option value='250' selected>250</option>"
+					}else{
+					html_class += "<option value='250'>250</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '300'){
+					html_class += "<option value='300' selected>300</option>"
+					}else{
+					html_class += "<option value='300'>300</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '400'){
+					html_class += "<option value='400' selected>400</option>"
+					}else{
+					html_class += "<option value='400'>400</option>"
+					}
+				if(xObjRateRequest.xCommodities[x].xClass == '500'){
+					html_class += "<option value='500' selected>500</option>"
+					}else{
+					html_class += "<option value='500'>500</option>"
+					}
+			html_class += "</select>";
+			html_weight = "<input type='text' name='nputLTLRequestCommodityWeight' id='nputLTLRequestCommodityWeight' value='"+xObjRateRequest.xCommodities[x].xWeight+"' class='formInput' style='width:60px;' onChange='javascript:updateCommoditiesArray("+xCommodityCounter+",this.id,this.value)'/></div>";
+			html_nmfc = "<input type='text' name='nputLTLRequestCommodityNMFC' id='nputLTLRequestCommodityNMFC' value='"+xObjRateRequest.xCommodities[x].xNMFC+"' class='formInput' style='width:30px;' onChange='javascript:updateCommoditiesArray("+xCommodityCounter+",this.id,this.value)'/></div>";
+			html_description = "<input type='text' name='nputLTLRequestCommodityDescription' id='nputLTLRequestCommodityDescription' value='"+xObjRateRequest.xCommodities[x].xDescription+"' class='formInput' style='width:135px;' onChange='javascript:updateCommoditiesArray("+xCommodityCounter+",this.id,this.value)'/></div>";			
+			if(xObjRateRequest.xCommodities[x].xHazMat == true){
+				html_hazMat = "<input type='checkbox' value='"+xObjRateRequest.xCommodities[x].xHazMat+"' name='nputLTLRequestCommodityHazMat' id='nputLTLRequestCommodityHazMat' class='formInput' style='width:30px;' onChange='javascript:updateCommoditiesArray("+xCommodityCounter+",this.id,this.checked)' checked/>"
+				}else{
+				html_hazMat = "<input type='checkbox' value='"+xObjRateRequest.xCommodities[x].xHazMat+"' name='nputLTLRequestCommodityHazMat' id='nputLTLRequestCommodityHazMat' class='formInput' style='width:30px;' onChange='javascript:updateCommoditiesArray("+xCommodityCounter+",this.id,this.checked)'/>"
+				}
+			
+			html_remove = "<input type='button' style='width:15px;' id='btnRemoveCommodity_"+xCommodityCounter+"' name='btnRemoveCommodity_"+xCommodityCounter+"' value='X' class='formButton' onMouseOver='goLite(this.form.name,this.name)' onMouseOut='goDim(this.form.name,this.name)' onclick='javascript:removeCommodity("+xCommodityCounter+")'/>";
+
+			
+			xBuildInnerHTML = html_openTable
+								+ html_openTR
+									+ html_openTD + html_commodityCounter + html_closeTD
+									+ html_openTD + html_pieces + html_closeTD
+									+ html_openTD + html_type + html_closeTD
+									+ html_openTD + html_class + html_closeTD
+									+ html_openTD + html_weight + html_closeTD
+									+ html_openTD + html_nmfc + html_closeTD
+									+ html_openTD + html_hazMat + html_closeTD
+									+ html_openTD + html_description + html_closeTD
+									+ html_openTD + html_remove + html_closeTD
+								+ html_closeTR
+									
+							+ html_closeTable;
+			
+			xNewCommodityDiv.innerHTML = xBuildInnerHTML;
+			document.getElementById('divRequestCommodities').appendChild(xNewCommodityDiv);
+			xCommodityCounter++;
+			}
+		}	
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>js_dynamic_table</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
