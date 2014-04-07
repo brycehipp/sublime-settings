@@ -1,0 +1,11 @@
+{
+  "lesscCommand": false,
+  "lessBaseDir": "./includes/less",
+  "outputDir": "./includes/css",
+  "outputFile": "", //[example.css] if left blank uses same name of .less file
+  "minify": true,
+  "autoCompile": true,
+  "showErrorWithWindow": false,
+  "main_file": true,
+  "ignorePrefixedFiles": false
+}

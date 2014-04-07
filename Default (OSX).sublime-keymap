@@ -1,0 +1,14 @@
+[
+ { "keys": ["shift+enter"], "command": "run_macro_file", "args": {"file": "Packages/Default/Add Line.sublime-macro"} },
+ { "keys": ["alt+up"], "command": "swap_line_up" },
+ { "keys": ["alt+down"], "command": "swap_line_down" },
+ { "keys": ["ctrl+shift+j"], "command": "join_lines" },
+ { "keys": ["super+alt+down"], "command": "duplicate_line" },
+ { "keys": ["super+shift+s"], "command": "save_all" },
+ { "keys": ["ctrl+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+ { "keys": ["shift+ctrl+f4"], "command": "close_all" },
+ { "keys": ["shift+ctrl+y"], "command": "lower_case" },
+ { "keys": ["shift+ctrl+x"], "command": "upper_case" },
+ { "keys": ["super+shift+k"], "command": "find_under_expand" },
+ { "keys": ["super+k", "super+shift+k"], "command": "find_under_expand_skip" }
+]

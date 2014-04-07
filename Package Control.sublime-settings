@@ -1,0 +1,37 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AndyJS2",
+		"ColdBox Platform",
+		"ColdFusion",
+		"Dayle Rees Color Schemes",
+		"DocBlockr",
+		"EclipseJavaFormatter",
+		"Enhanced HTML and CFML",
+		"Format SQL",
+		"GitGutter",
+		"Github Tools",
+		"HTML Compressor",
+		"HTMLBeautify",
+		"Indent XML",
+		"jQuery",
+		"jQuery Snippets pack",
+		"JsFormat",
+		"JSHint",
+		"Keymaps",
+		"LESS",
+		"LineEndings",
+		"Package Control",
+		"ReadmePlease",
+		"Sencha",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"Sublime-HTMLPrettify",
+		"SVN",
+		"Theme - Aqua",
+		"Theme - Soda",
+		"Tomorrow Color Schemes",
+		"Trimmer"
+	]
+}
