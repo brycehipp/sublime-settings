@@ -1,7 +1,7 @@
 .DS_Store
-*.sublime-settings
-*.tmTheme
-*.cache
-*.last-run
-*.system-ca-bundle
-*.sublime-keymap
+Package Control.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.cache/
+Package Control.ca-certs/
