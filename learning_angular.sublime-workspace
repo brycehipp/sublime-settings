@@ -1,0 +1,1819 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ty",
+				"type=\"html\"	type"
+			],
+			[
+				"time",
+				"cfsqltype=\"cf_sql_timestamp\"	cfsqltype"
+			],
+			[
+				"nul",
+				"null	@null"
+			],
+			[
+				"va",
+				"cfsqltype=\"cf_sql_varchar\"	cfsqltype"
+			],
+			[
+				"acc",
+				"access=\"package\"	access"
+			],
+			[
+				"onError",
+				"onerror	Window non-spec"
+			],
+			[
+				"reb",
+				"returntype=\"boolean\"	returntype"
+			],
+			[
+				"datasource",
+				"datasourceStruct"
+			],
+			[
+				"getDat",
+				"getDatasourceID	Default"
+			],
+			[
+				"listFin",
+				"listFind	fn. (cfscript)"
+			],
+			[
+				"ht",
+				"type=\"html\"	type"
+			],
+			[
+				"tabChange",
+				"tabChangeTimerFunction	Default"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"type",
+				"type=\"application\"	type"
+			],
+			[
+				"ac",
+				"action=\"run\"	action"
+			],
+			[
+				"qryStatement",
+				"qryStatementInvoices"
+			],
+			[
+				"tn",
+				"type=\"numeric\"	type"
+			],
+			[
+				"dateType",
+				"dateTypeColumn"
+			],
+			[
+				"statement",
+				"statementID"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"getStatement",
+				"getStatementInvoicesByID"
+			],
+			[
+				"cfqr",
+				"cfqueryparam	Tag (cmfl)"
+			],
+			[
+				"cfquery",
+				"cfqueryparam	Tag (cmfl)"
+			],
+			[
+				"qStatement",
+				"qStatementInvoicesSubQuery"
+			],
+			[
+				"qStatementI",
+				"qStatementInvoiceSubQuery"
+			],
+			[
+				"qSta",
+				"qStatementInvoiceSubQuery"
+			],
+			[
+				"returntys",
+				"returntype=\"struct\"	returntype"
+			],
+			[
+				"typ",
+				"dbtype=\"hql\"	dbtype"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sort",
+				"sortDir"
+			],
+			[
+				"page",
+				"pageSize"
+			],
+			[
+				"convert",
+				"queryConvertForGrid	fn. (cfscript)"
+			],
+			[
+				"ra_user_saved_search",
+				"ra_user_saved_search_groups"
+			],
+			[
+				"stopType",
+				"stopTypeList	Default"
+			],
+			[
+				"dsiplay",
+				"display=\"false\"	display"
+			],
+			[
+				"reload",
+				"reloadGrid	Default"
+			],
+			[
+				"ontime_dv",
+				"ontime_dv_count"
+			],
+			[
+				"ontime_pu",
+				"ontime_pu_count"
+			],
+			[
+				"displ",
+				"display=\"false\"	display"
+			],
+			[
+				"cfqe",
+				"cfqueryparam	Tag (cmfl)"
+			],
+			[
+				"reporting_",
+				"reporting_year"
+			],
+			[
+				"assignUser",
+				"assignUserID"
+			],
+			[
+				"list",
+				"list=\"true\"	list"
+			],
+			[
+				"cfret",
+				"cfreturn	Tag (cmfl)"
+			],
+			[
+				"savedSearc",
+				"savedSearchID"
+			],
+			[
+				"assign",
+				"assignUsers	Default"
+			],
+			[
+				"cache",
+				"cachedwithin	@cachedwithin"
+			],
+			[
+				"statementInv",
+				"statementInvoiceNumber"
+			],
+			[
+				"statement_",
+				"statement_id"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"sav",
+				"saved_search_id"
+			],
+			[
+				"data",
+				"datasource_id"
+			],
+			[
+				"re",
+				"returnformat=\"json\"	returnformat"
+			],
+			[
+				"returntyb",
+				"returntype=\"boolean\"	returntype"
+			],
+			[
+				"gridAss",
+				"grid_assign_teams"
+			],
+			[
+				"f",
+				"font-style"
+			],
+			[
+				"bind",
+				"bindOnLoad=\"true\"	bindOnLoad"
+			],
+			[
+				"t",
+				"template	@template"
+			],
+			[
+				"get_user",
+				"get_user_login_types"
+			],
+			[
+				"getSave",
+				"getSavedSearchID	Default"
+			],
+			[
+				"savedSear",
+				"savedSearchID"
+			],
+			[
+				"db_",
+				"db_display_name"
+			],
+			[
+				"acce",
+				"access=\"package\"	access"
+			],
+			[
+				"bui",
+				"buildJQGridFilters	Default"
+			],
+			[
+				"ra_user_saved",
+				"ra_user_saved_search_filters"
+			],
+			[
+				"requi",
+				"required=\"true\"	required"
+			],
+			[
+				"acces",
+				"access=\"private\"	access"
+			],
+			[
+				"listFind",
+				"listFindNoCase	fn. (cfscript)"
+			],
+			[
+				"YYYY",
+				"YYYY-MM-DD"
+			],
+			[
+				"Edge",
+				"EdgeJQueryExtender	Default"
+			],
+			[
+				"uiSearchT",
+				"uiSearchTablePopulatedSelectIDs	Default"
+			],
+			[
+				"uiSearchTablePo",
+				"uiSearchTablePopulatedIDs	Default"
+			],
+			[
+				"temp",
+				"temp-option"
+			],
+			[
+				"highligh",
+				"highlightFilters	Default"
+			],
+			[
+				"high",
+				"highlightFilters	Default"
+			],
+			[
+				"clea",
+				"cleanedSortIndexes"
+			],
+			[
+				"edgeDSN",
+				"edgeDSN_MSSQL"
+			],
+			[
+				"toggleD",
+				"toggleDefaultCheckbox	Default"
+			],
+			[
+				"clearAllS",
+				"clearAllSorting	Default"
+			],
+			[
+				"useDBF",
+				"useDBForFiltering"
+			],
+			[
+				"populate",
+				"populateFilters	Default"
+			],
+			[
+				"required",
+				"required=\"false\"	required"
+			],
+			[
+				"Edg",
+				"EdgeReportingColumnSelector"
+			],
+			[
+				"initDate",
+				"initDatepickerProxy	Default"
+			],
+			[
+				"initMulti",
+				"initMultiselectProxy	Default"
+			],
+			[
+				"initAuto",
+				"initAutocompleteProxy	Default"
+			],
+			[
+				"newColu",
+				"newColumnID	Default"
+			],
+			[
+				"js_",
+				"js_date_handler	js_date_handler"
+			],
+			[
+				"isSu",
+				"isSubtotalField	Default"
+			],
+			[
+				"aggType",
+				"aggTypeLength"
+			],
+			[
+				"E",
+				"EdgeReporting	Default"
+			],
+			[
+				"qAgg",
+				"qAggTypes"
+			],
+			[
+				"qShipmentReportLeg",
+				"qShipmentReportLegsIMDL"
+			],
+			[
+				"li",
+				"list=\"true\"	list"
+			],
+			[
+				"sqlQue",
+				"sqlQueryUpdate"
+			],
+			[
+				"qFil",
+				"qFilters"
+			],
+			[
+				"comma",
+				"commaReplacement"
+			],
+			[
+				"getSort",
+				"getSortOrder	Default"
+			],
+			[
+				"defaultSort",
+				"defaultSortFields"
+			],
+			[
+				"datasourc",
+				"datasourceID"
+			],
+			[
+				"getSav",
+				"getSavedSearchSelector	Default"
+			],
+			[
+				"getSearch",
+				"getSavedSearchSelector	Default"
+			],
+			[
+				"getSavedSea",
+				"getSavedSearchSelector	Default"
+			],
+			[
+				"defaultS",
+				"defaultSearchID"
+			],
+			[
+				"is",
+				"isDefault"
+			],
+			[
+				"isDefau",
+				"isDefaultSearch	Default"
+			],
+			[
+				"replace",
+				"replacement"
+			],
+			[
+				"column",
+				"columnQuery"
+			],
+			[
+				"formatt",
+				"formattedFilters"
+			],
+			[
+				"accessCondi",
+				"accessConditionMethod"
+			],
+			[
+				"clear",
+				"clearsearchclass"
+			],
+			[
+				"qAuto",
+				"qAutocomplete"
+			],
+			[
+				"fie",
+				"fieldNamesProcessed"
+			],
+			[
+				"cleanFil",
+				"cleanFilterArray"
+			],
+			[
+				"qD",
+				"qDBFilters"
+			],
+			[
+				"datasou",
+				"datasourceID"
+			],
+			[
+				"gridSor",
+				"gridSortDir"
+			],
+			[
+				"cfco",
+				"cf_component	cf_component"
+			],
+			[
+				"boot",
+				"bootstrap_"
+			],
+			[
+				"env",
+				"environments"
+			],
+			[
+				"q",
+				"qetBootstrap"
+			],
+			[
+				"returned",
+				"returnedData"
+			],
+			[
+				"viewType",
+				"viewTypeSpan	Default"
+			],
+			[
+				"structKey",
+				"structKeyExists	fn. (cfscript)"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"min",
+				"min-width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 71.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"themr",
+				"Themr: List themes"
+			],
+			[
+				"them",
+				"Themr: List themes"
+			],
+			[
+				"",
+				"Bookmarks: Toggle"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"indention",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"json",
+				"Indent JSON"
+			],
+			[
+				"whit",
+				"Trimmer: Trim trailing whitespace."
+			],
+			[
+				"white",
+				"Trimmer: Trim trailing whitespace."
+			],
+			[
+				"sqq",
+				"FormatSQL: Format SQL statement"
+			],
+			[
+				"trim",
+				"Trimmer: Trim trailing whitespace."
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"format",
+				"FormatSQL: Format SQL statement"
+			],
+			[
+				"doc",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"html",
+				"HTMLBeautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"sq",
+				"Set Syntax: SQL"
+			],
+			[
+				"trailing",
+				"Trimmer: Trim trailing whitespace."
+			],
+			[
+				"trail",
+				"Trimmer: Trim trailing whitespace."
+			],
+			[
+				"trimmer",
+				"Trimmer: Trim trailing whitespace."
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"jslint",
+				"Snippet: js_class_instantiation"
+			],
+			[
+				"indent",
+				"Auto indent"
+			],
+			[
+				"index",
+				"Indent XML"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"syntxml",
+				"Set Syntax: XML"
+			],
+			[
+				"synt",
+				"Set Syntax: Markdown"
+			],
+			[
+				"syn",
+				"Set Syntax: Makefile"
+			],
+			[
+				"syntax",
+				"Set Syntax: Groovy"
+			],
+			[
+				"xml",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"snippet: excel",
+				"Snippet: cf_download_excel"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"readme",
+				"ReadmePlease"
+			],
+			[
+				"spell",
+				"Google Spell Check"
+			],
+			[
+				"spe",
+				"Google Spell Check"
+			],
+			[
+				"spell ",
+				"Google Spell Check"
+			],
+			[
+				"upgrad",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"coldfusion",
+				"Set Syntax: ColdFusion Markup"
+			]
+		],
+		"width": 615.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/bryce/Sites/learning_angular"
+	],
+	"file_history":
+	[
+		"/Users/bryce/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bryce/.zshrc",
+		"/Users/bryce/Sites/edge/cfc/shipments/shipment_billing.cfc",
+		"/Users/bryce/Sites/edge/cfc/shipments/custom_boards/shipment_boards.cfc",
+		"/Users/bryce/Sites/edge/shipments/edit/shipment_ap.cfm",
+		"/Users/bryce/Sites/edge/cfc/shipments/shipment_ap_header.cfc",
+		"/Users/bryce/Sites/edge/cfc/shipments/shipments.cfc",
+		"/Users/bryce/Sites/edge/shipments/carrier_notifications/shipment_carrier_notification.cfm",
+		"/Users/bryce/Sites/edge/cfc/users/ActivityLog.cfc",
+		"/Users/bryce/Sites/edge/clearpointt/accounting_integration/export_files/ar_customers.csv",
+		"/Users/bryce/Sites/edge/cfc/auth/Authentication.cfc",
+		"/Users/bryce/Sites/edge/cfc/utility/record_confirmation.cfc",
+		"/Users/bryce/Sites/edge/cfc/transcore/historic_index/retrieve/retrieve_historic_index_result.cfc",
+		"/Users/bryce/Sites/edge/image_archive/archive_retrieval.cfm",
+		"/Users/bryce/Sites/edge/image_archive/archive_document.cfm",
+		"/Users/bryce/Sites/edge/small_parcel_audit/complex/views/analytics/analytics_overview_report_charges.cfm",
+		"/Users/bryce/Sites/edge/billto/access_restricted.cfm",
+		"/Users/bryce/Sites/edge/action_panel/action_panel_main.cfm",
+		"/Users/bryce/Sites/edge/boards/action_truck_search.cfm",
+		"/Users/bryce/Sites/edge/shipments/edit/script/shipment_details_v2.js",
+		"/Users/bryce/Sites/edge/cfc/shipments/shipment_documents.cfc",
+		"/Users/bryce/Sites/edge/reports/short_paid.cfm",
+		"/Users/bryce/Sites/edge/cfc/reporting/ReportingExportBO.cfc",
+		"/Users/bryce/Sites/edge/cfc/edi/xml/reader/extract/ResponseToLoadTenderIn.cfc",
+		"/Users/bryce/Sites/edge/cfc/reporting/ReportingAssignerDAO.cfc",
+		"/Users/bryce/Sites/edge/sites/site_accounts.cfm",
+		"/Users/bryce/Sites/edge/shipments/edit/shipment_ap_v2.cfm",
+		"/Users/bryce/Sites/edge/reports/advantedge/saved_search_col_selector.cfm",
+		"/Users/bryce/Sites/edge/cfc/reporting/ReportingDAO.cfc",
+		"/Users/bryce/Sites/edge/boards/truck_search.cfm",
+		"/Users/bryce/Sites/edge/testEmailAlert.cfm",
+		"/Users/bryce/Sites/edge/cfc/reporting/ReportingService.cfc",
+		"/Users/bryce/Sites/edge/valums/readme.md",
+		"/Users/bryce/Sites/edge/cfc/reporting/builder/TSQLBuilder.cfc",
+		"/Users/bryce/Sites/edge/cfc/reporting/ReportingAPI.cfc",
+		"/Users/bryce/Sites/edge/client_integration/tli/export_ap_invoices.cfm",
+		"/Users/bryce/Sites/edge/cfc/_config/ScriptConfig.cfc",
+		"/Users/bryce/Sites/edge/reports/advantedge/report_main.cfm",
+		"/Users/bryce/Sites/edge/finance/invoicing/ar_statement_invoice_details.cfm",
+		"/Users/bryce/Sites/edge/finance/invoicing/ar_statement_invoice.cfm",
+		"/Users/bryce/Sites/edge/cfc/reporting/ReportingAPI_base.cfc",
+		"/Users/bryce/Sites/edge/reports/advantedge/script/EdgeReportingBase.js",
+		"/Users/bryce/Sites/edge/reports/advantedge/script/EdgeReportingAdv.js",
+		"/Users/bryce/Sites/edge/shipments/adv/shipment_grid.cfm",
+		"/Users/bryce/Sites/edge/cfc/pcmiler/insert/pcm_insert_xml_mileage_response.cfc",
+		"/Users/bryce/Sites/edge/cfc/shipments/shipment_references.cfc",
+		"/Users/bryce/Sites/edge/test.cfm",
+		"/Users/bryce/Sites/edge/css/report_role.css",
+		"/Users/bryce/Sites/edge/cfc/finance/ar_statement_invoice.cfc",
+		"/Users/bryce/Sites/edge/shipments/adv/index.cfm",
+		"/Users/bryce/Sites/edge/pricing/adv/build_load.cfm",
+		"/Users/bryce/Sites/edge/cfc/reporting/advantedge.cfc",
+		"/Users/bryce/Sites/edge/reports/open_accounting_main.cfm",
+		"/Users/bryce/Sites/edge/reports/accounting/accounting_main.cfm",
+		"/Users/bryce/Sites/edge/reports/advantedge/report_assign_main.cfm",
+		"/Users/bryce/Sites/edge/action_panel/operations/report_assign_main.cfm",
+		"/Users/bryce/Sites/edge/reports/advantedge/script/reporting_advantedge_main.js",
+		"/Users/bryce/Sites/edge/reports/advantedge/reporting_advantedge_main.cfm",
+		"/Users/bryce/Sites/edge/css/reporting_advantedge.css",
+		"/Users/bryce/Sites/edge/cfc/boards/retrieve/retrieve_stop_info.cfc",
+		"/Users/bryce/Sites/edge/action_panel/operations/report_assign_offices.cfm",
+		"/Users/bryce/Sites/edge/billing/advantedge/index.cfm",
+		"/Users/bryce/Sites/edge/pricing/quotes/quote_response_adv.cfm",
+		"/Users/bryce/Sites/edge/cfc/edi/applicationadvice/AdviceProcessor.cfc",
+		"/Users/bryce/Sites/edge/reports/advantedge/script/min/.gitignore",
+		"/Users/bryce/Sites/edge/alerts/report_grid.cfm",
+		"/Users/bryce/Sites/edge/reports/advantedge/report_assign_users.cfm",
+		"/Users/bryce/Sites/edge/reports/financials/aging_grid.cfm",
+		"/Users/bryce/Sites/edge/roles/reporting_role_assignment.cfm",
+		"/Users/bryce/Sites/edge/client_portal/assets/js/PortalEdgeReporting.js",
+		"/Users/bryce/Sites/edge/cfc/users/shipment_board.cfc",
+		"/Users/bryce/Sites/edge/shipments/user_boards/scheduled_reports_list.cfm",
+		"/Users/bryce/Sites/edge/scheduled_tasks/general/scheduled_mail_move.cfm",
+		"/Users/bryce/Sites/edge/client_integration/tli/export_ar_invoices.cfm",
+		"/Users/bryce/Sites/edge/cfc/edi/clientupdates/ClientUpdateHandler.cfc",
+		"/Users/bryce/Sites/edge/small_parcel_audit/complex/views/spa_report_interface_tracking_numbers.cfm",
+		"/Users/bryce/Sites/edge/small_parcel_audit/complex/views/spa_report_interface.cfm",
+		"/Users/bryce/Sites/edge/cfc/shipments/shipment_ar_detail.cfc",
+		"/Users/bryce/Sites/edge/shipments/documents/shipment_invoice_body_tli.cfm",
+		"/Users/bryce/Sites/edge/cfc/reporting/builder/SQLBuilder.cfc",
+		"/Users/bryce/Sites/edge/cfc/reporting/builder/MySQLBuilder.cfc",
+		"/Users/bryce/Sites/edge/shipments/documents/statement_invoice_addtl_docs.cfm",
+		"/Users/bryce/Sites/edge/cfc/users/user_role_check.cfc",
+		"/Users/bryce/Sites/edge/cfc/users/users.cfc",
+		"/Users/bryce/Sites/edge/roles/role_functions_display.cfm",
+		"/Users/bryce/Sites/edge/cfc/users/roles.cfc",
+		"/Users/bryce/Sites/edge/cfc/pricing/quotes/quotes_ar_detail.cfc",
+		"/Users/bryce/Sites/edge/cfc/shipments/shipment_ap_detail.cfc",
+		"/Users/bryce/Sites/edge/css/ar_statement_invoice.css",
+		"/Users/bryce/Sites/edge/shipments/documents/statement_invoicing.cfm",
+		"/Users/bryce/Sites/edge/cfc/utility/static_lookups.cfc",
+		"/Users/bryce/Sites/edge/cfc/shipments/shipment_tracing.cfc",
+		"/Users/bryce/Sites/edge/cfc/company/company_documents.cfc",
+		"/Users/bryce/Sites/edge/company/company_document_types.cfm",
+		"/Users/bryce/Sites/edge/company/documents/company_document_send.cfm",
+		"/Users/bryce/Sites/edge/crm/company_display.cfm",
+		"/Users/bryce/Sites/edge/crm/company_clearinghouse.cfm",
+		"/Users/bryce/Sites/edge/company/company_office_main.cfm",
+		"/Users/bryce/Sites/edge/cfc/_config/Config.cfc",
+		"/Users/bryce/Sites/edge/finance/invoicing/ar_statement_invoice_downloader.cfm",
+		"/Users/bryce/Sites/edge/cfc/carriers/carrier_document.cfc",
+		"/Users/bryce/Sites/edge/finance/invoicing/script/ar_statement_invoice.js",
+		"/Users/bryce/Sites/edge/users/reset_password.cfm",
+		"/Users/bryce/Sites/edge/shipments/adv/script/shipment_main.js",
+		"/Users/bryce/Sites/edge/css/edge_style.css",
+		"/Users/bryce/Sites/edge/cfc/shipments/shipment_fsc_ar.cfc",
+		"/Users/bryce/Sites/edge/utility/recalc_fsc_ap.cfm",
+		"/Users/bryce/Sites/edge/cfc/transcore/carrier_watch/ftp/ftp_send_carrier_update_list.cfc",
+		"/Users/bryce/Sites/edge/reports/financials/financials_search.cfm",
+		"/Users/bryce/Sites/edge/footer.cfm",
+		"/Users/bryce/Sites/edge/users/shipment_boards/user_shipmentboard_filters.cfm",
+		"/Users/bryce/Sites/edge/carriers/documents/rl_shipment_load.XML",
+		"/Users/bryce/Sites/edge/shipments/advantedge/capacity/ca_similar_shipments.cfm",
+		"/Users/bryce/Sites/edge/action_panel/operations/tipsource/ar_short_pay.cfm",
+		"/Users/bryce/Sites/edge/finance/audit_detail/ar_audit_fx.cfm",
+		"/Users/bryce/Sites/edge/shipments/edit/shipment_ar_update_fsc_invoice.cfm",
+		"/Users/bryce/Sites/edge/shipments/edit/script/shipment_ar_update_fsc.js",
+		"/Users/bryce/Sites/edge/cfc/edi/xml/writers/Writer.cfc",
+		"/Users/bryce/Sites/edge/cfc/transcore/carrier_watch/update/update_carrier_watch_run_history.cfc",
+		"/Users/bryce/Sites/edge/_ignore-folder/_Temp/working.txt",
+		"/Users/bryce/Sites/edge/carriers/carrier_fingerprints.cfm",
+		"/Users/bryce/Sites/edge/cfc/utility/FileDownloader.cfc",
+		"/Users/bryce/Sites/edge/utility/file_downloader.cfm",
+		"/Users/bryce/Sites/edge/shipments/view/shipment_details_lo2.cfm",
+		"/Users/bryce/Sites/edge/shipments/edit/script/shipment_details.js",
+		"/Users/bryce/Sites/edge/client_portal/shipment_details.cfm",
+		"/Users/bryce/Sites/edge/cfc/transcore/carrier_watch/cw_process_carrier_updated_data_from_work.cfc",
+		"/Users/bryce/Sites/edge/cfc/transcore/carrier_watch/cw_process_carrier_cw_request.cfc"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"-*.sql",
+			"",
+			"/Users/bryce/Sites/edge/reports/advantedge/script",
+			"-*.sql",
+			"",
+			"/Users/bryce/Sites/edge/cfc/reporting",
+			"",
+			"/Users/bryce/Sites/edge/cfc",
+			"",
+			"<open files>",
+			"",
+			"<open files>",
+			"",
+			"Reader.cfc",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"rbenv",
+			"update shipment_reporting",
+			"ar_first_postdate",
+			"service",
+			"action_email",
+			"shipmentBillingService",
+			"bill_date =",
+			"bill_date",
+			"shipment_billing",
+			"canViewOpenDatasources",
+			"canviewopendata",
+			"todo",
+			"getCheckedRowsMultiQuote",
+			"getColumnName",
+			"multi",
+			"shouldReselect",
+			"reloadSavedSearches",
+			"delete",
+			"columnLookup",
+			"elem.",
+			"elem.fiel",
+			"getColumnStructLookup",
+			"write",
+			"is_alert_report",
+			"savedSearchID",
+			"Update shipment_reporting",
+			"columnLookup",
+			"columnName",
+			"getColumnStructLookup",
+			"edgeRepor",
+			"initModal",
+			"initModal\n",
+			"initModal",
+			"schedule",
+			"UPDATE shipment_reporting",
+			"invoice_total = ",
+			"invoice_total",
+			"DEFAULT_DISCOUNT_LINE_TYPE_ID",
+			"includeDoc",
+			"includeDocs",
+			"fileExists",
+			"bill_to_id from billto_hold_invoice",
+			"clearXHRPool",
+			"rssc",
+			"sort_order",
+			"addsort",
+			"init:",
+			"init",
+			"init(",
+			"init",
+			"getReportingURL",
+			"reportAdvURL",
+			"update carriers_reporting",
+			"sp_trigger",
+			"sp_trigger_carrier",
+			"recordStatementInvoice",
+			"getStatementInvoice",
+			"buildExcel",
+			"getStatementInvoices",
+			"buildExcel",
+			"acc_release_date",
+			"FileDownloader",
+			"jqXHR.status",
+			"fileDownloader",
+			"support",
+			"write",
+			"getNameToFilterStruct",
+			"writedump",
+			"formatField",
+			"writeDump",
+			"writedu",
+			"getColumnQuery",
+			"filter",
+			"validateCredentials",
+			"getReportingSearchPermissionFilter",
+			"custInvDisplay",
+			"totalRate",
+			"finalTotalRate",
+			"canViewOpen",
+			"getDateStruct",
+			"formatDate",
+			"_apiUnavailable",
+			"logError",
+			"extendDatepick",
+			"cls.",
+			"cookie",
+			"node",
+			"classXMLCreateRequestSpot",
+			"ra_user_saved_search_sortings",
+			"insert into ra_user_saved_search_sortings",
+			"Boards",
+			"Pickup and Domestic",
+			"Boards",
+			"Delivery Boards",
+			"My Domestic",
+			"My Domstic",
+			"searchWithoutFilters",
+			"requiresFilters",
+			"shouldShowCheckbox",
+			"getColumnName",
+			"structKeyExists(datasourceStruct, arguments.datasourceID)",
+			"datasourceStruct",
+			"checkboxColumnStruct",
+			"getDatasourceStruct",
+			"getCheckedRowsMultiQuote",
+			"showGridExport",
+			"excel",
+			"cached",
+			"gewhereclause",
+			",",
+			"addFilterSuccess",
+			"addFilterSuccess\n",
+			"addFilterSuccess",
+			"carriers.",
+			"carrier_masters.mc_number IN",
+			"execute",
+			"statementInvoice",
+			"cfmailparam",
+			"getStatementInvoices",
+			"writeDu",
+			"buildDateValue",
+			"appt needed",
+			"sched appt",
+			"cachedwithin",
+			"amount_exch",
+			"getNewInvoiceFSCAmount",
+			"shipment accounting & detail",
+			"shipment_ar_detail"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Save New Search",
+			"helpdesk@trinitylogistics.com",
+			"<cfif getAppSetting('callMSSQLStoredProc') and structKeyExists(session, 'edgeDSN_MSSQL') and len(session.edgeDSN_MSSQL)>",
+			"<cfif getAppSetting('callMSSQLStoredProc') && structKeyExists(session, 'edgeDSN_MSSQL') && len(session.edgeDSN_MSSQL)>",
+			"/js/min/jquery.edge.jqgrid.min.js",
+			"script/min/EdgeReporting.min.js",
+			"authentication",
+			"activityLog",
+			"getAppSetting(",
+			"edge",
+			"init",
+			"EdgeReportingBase.js",
+			"/css/jquery-ui-1.10.4.custom.css",
+			"jquery-ui-1.10.4.custom.css",
+			"jquery-ui-1.10.4.custom.min.css",
+			"Country of<br>Issuance",
+			"Country of Issuance",
+			"country_of_issuance",
+			"EdgeMasker.setupMasks",
+			"handleOrderResponseAction",
+			"#In/",
+			"Kleinschmidt/",
+			"/",
+			"util_shipment_comcheck_purpose",
+			"cfc.image_archive",
+			"image_archive",
+			"init_samain_grid"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "learning_angular.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"shipment_billing",
+				"cfc/shipments/shipment_billing.cfc"
+			],
+			[
+				"action_email",
+				"shipments/carrier_notifications/action_email.cfm"
+			],
+			[
+				"archive_re",
+				"image_archive/archive_retrieval.cfm"
+			],
+			[
+				"activity",
+				"cfc/users/ActivityLog.cfc"
+			],
+			[
+				"shipment_grid",
+				"shipments/adv/shipment_grid.cfm"
+			],
+			[
+				"shipment_main.js",
+				"shipments/adv/script/shipment_main.js"
+			],
+			[
+				"reportingbase",
+				"reports/advantedge/script/EdgeReportingBase.js"
+			],
+			[
+				"reportingadv",
+				"reports/advantedge/script/EdgeReportingAdv.js"
+			],
+			[
+				"reporting",
+				"cfc/reporting/ReportingDAO.cfc"
+			],
+			[
+				"reportingda",
+				"cfc/reporting/ReportingDAO.cfc"
+			],
+			[
+				"reportingapi",
+				"cfc/reporting/ReportingAPI.cfc"
+			],
+			[
+				"sqlbui",
+				"cfc/reporting/builder/SQLBuilder.cfc"
+			],
+			[
+				"tsql",
+				"cfc/reporting/builder/TSQLBuilder.cfc"
+			],
+			[
+				"reportingser",
+				"cfc/reporting/ReportingService.cfc"
+			],
+			[
+				"reportingassigner",
+				"cfc/reporting/ReportingAssignerDAO.cfc"
+			],
+			[
+				"ar_statede",
+				"finance/invoicing/ar_statement_invoice_details.cfm"
+			],
+			[
+				"ar_stat",
+				"finance/invoicing/ar_statement_invoice.cfm"
+			],
+			[
+				"ar_statement",
+				"cfc/finance/ar_statement_invoice.cfc"
+			],
+			[
+				"reportingdao",
+				"cfc/reporting/ReportingDAO.cfc"
+			],
+			[
+				"adv/in",
+				"shipments/adv/index.cfm"
+			],
+			[
+				"script",
+				"cfc/_config/ScriptConfig.cfc"
+			],
+			[
+				"shipment_boards",
+				"cfc/shipments/custom_boards/shipment_boards.cfc"
+			],
+			[
+				"reporingser",
+				"cfc/reporting/ReportingService.cfc"
+			],
+			[
+				"user_ro",
+				"cfc/users/user_role_check.cfc"
+			],
+			[
+				"statement_invoice.cfc",
+				"cfc/finance/ar_statement_invoice.cfc"
+			],
+			[
+				"ar_sta",
+				"finance/invoicing/ar_statement_invoice_details.cfm"
+			],
+			[
+				"shipment_invoice_body",
+				"shipments/documents/shipment_invoice_body_tli.cfm"
+			],
+			[
+				"company_documents",
+				"cfc/company/company_documents.cfc"
+			],
+			[
+				"shipment_documents",
+				"cfc/shipments/shipment_documents.cfc"
+			],
+			[
+				"statement_invoice_add",
+				"shipments/documents/statement_invoice_addtl_docs.cfm"
+			],
+			[
+				"mysql",
+				"cfc/reporting/builder/MySQLBuilder.cfc"
+			],
+			[
+				"reportser",
+				"cfc/reporting/ReportingService.cfc"
+			],
+			[
+				"ar_state",
+				"cfc/finance/ar_statement_invoice.cfc"
+			],
+			[
+				"sql",
+				"cfc/reporting/builder/SQLBuilder.cfc"
+			],
+			[
+				"edgereport",
+				"reports/advantedge/script/EdgeReportingBase.js"
+			],
+			[
+				"fsc_ar",
+				"cfc/shipments/shipment_fsc_ar.cfc"
+			],
+			[
+				"reportingapibase",
+				"cfc/reporting/ReportingAPI_base.cfc"
+			],
+			[
+				"reportdao",
+				"cfc/reporting/ReportingDAO.cfc"
+			],
+			[
+				"sqlb",
+				"cfc/reporting/builder/SQLBuilder.cfc"
+			],
+			[
+				"edgerp",
+				"reports/advantedge/script/EdgeReportingBase.js"
+			],
+			[
+				"rep",
+				"cfc/reporting/ReportingDAO.cfc"
+			],
+			[
+				"shipment_details_v",
+				"shipments/edit/script/shipment_details_v2.js"
+			],
+			[
+				"shipment_details.js",
+				"shipments/edit/script/shipment_details.js"
+			],
+			[
+				"ar_statement_",
+				"finance/invoicing/ar_statement_invoice_details.cfm"
+			],
+			[
+				"ar_statemen",
+				"finance/invoicing/ar_statement_invoice.cfm"
+			],
+			[
+				"ar_statement_invoice.js",
+				"finance/invoicing/script/ar_statement_invoice.js"
+			],
+			[
+				"edgerpe",
+				"reports/advantedge/script/EdgeReportingBase.js"
+			],
+			[
+				"file",
+				"cfc/utility/FileDownloader.cfc"
+			],
+			[
+				"reportingapi_",
+				"cfc/reporting/ReportingAPI_base.cfc"
+			],
+			[
+				"reoirtingdao",
+				"cfc/reporting/ReportingDAO.cfc"
+			],
+			[
+				"auth",
+				"cfc/auth/Authentication.cfc"
+			],
+			[
+				"shipment_invoice_body_tli",
+				"shipments/documents/shipment_invoice_body_tli.cfm"
+			],
+			[
+				"statemet_inv",
+				"shipments/documents/statement_invoice_addtl_docs.cfm"
+			],
+			[
+				"shipment_invoice_bod",
+				"shipments/documents/shipment_invoice_body_tli.cfm"
+			],
+			[
+				"reportdateu",
+				"cfc/reporting/utility/ReportingDateUtility.cfc"
+			],
+			[
+				"reportdateutil",
+				"cfc/reporting/utility/ReportingDateUtility.cfc"
+			],
+			[
+				"grun",
+				"Gruntfile.js"
+			],
+			[
+				"reportinga",
+				"cfc/reporting/ReportingAPI.cfc"
+			],
+			[
+				"adv/ind",
+				"shipments/adv/index.cfm"
+			],
+			[
+				"appl",
+				"Application.cfc"
+			],
+			[
+				"useractivity",
+				"cfc/users/ActivityLog.cfc"
+			],
+			[
+				"scriptconfig",
+				"cfc/_config/ScriptConfig.cfc"
+			],
+			[
+				"adv/inde",
+				"shipments/adv/index.cfm"
+			],
+			[
+				"index",
+				"index.cfm"
+			],
+			[
+				"edgerepo",
+				"reports/advantedge/script/EdgeReportingBase.js"
+			],
+			[
+				"edgerpeo",
+				"reports/advantedge/script/EdgeReportingAdv.js"
+			],
+			[
+				"edgejs",
+				"js/edgeJSLib.js"
+			],
+			[
+				"script_dat360",
+				"dat360/complex/script/script_dat360_spot_index_controller.js"
+			],
+			[
+				"advantedge",
+				"cfc/reporting/advantedge.cfc"
+			],
+			[
+				"user_role",
+				"cfc/users/user_role_check.cfc"
+			],
+			[
+				"edgerepor",
+				"reports/advantedge/script/EdgeReportingBase.js"
+			],
+			[
+				"reportingapibas",
+				"cfc/reporting/ReportingAPI_base.cfc"
+			],
+			[
+				"quotes_quick",
+				"pricing/quotes/script/quotes_quick_adv.js"
+			],
+			[
+				"cw_process",
+				"cfc/transcore/carrier_watch/cw_process_carrier_cw_request.cfc"
+			],
+			[
+				"execu",
+				"cfc/reporting/builder/SQLBuilderExecutor.cfc"
+			],
+			[
+				"shipment_invocie_bod",
+				"shipments/documents/shipment_invoice_body.cfm"
+			],
+			[
+				"statement_invoicedownlo",
+				"finance/invoicing/ar_statement_invoice_downloader.cfm"
+			],
+			[
+				"statement_invoice_addtl_docs",
+				"shipments/documents/statement_invoice_addtl_docs.cfm"
+			],
+			[
+				"ar_statdow",
+				"finance/invoicing/ar_statement_invoice_downloader.cfm"
+			],
+			[
+				"statement_invoc",
+				"cfc/finance/ar_statement_invoice.cfc"
+			],
+			[
+				"reportdate",
+				"cfc/reporting/utility/ReportingDateUtility.cfc"
+			],
+			[
+				"reportserv",
+				"cfc/reporting/ReportingService.cfc"
+			],
+			[
+				"edgej",
+				"js/edgeJSLib.js"
+			],
+			[
+				"quotes_main",
+				"cfc/pricing/quotes/quotes_main.cfc"
+			],
+			[
+				"shipment_select",
+				"cfc/shipments/shipment_select.cfc"
+			],
+			[
+				"shipment_ap",
+				"shipments/edit/shipment_ap.cfm"
+			],
+			[
+				"shipmetn_ap_header",
+				"cfc/shipments/shipment_ap_header.cfc"
+			],
+			[
+				"shipment_ap_detail",
+				"cfc/shipments/shipment_ap_detail.cfc"
+			],
+			[
+				"shipment_fsc_ap",
+				"cfc/shipments/shipment_fsc_ap.cfc"
+			],
+			[
+				"shipment_ar_detail",
+				"cfc/shipments/shipment_ar_detail.cfc"
+			],
+			[
+				"shipmentfscar",
+				"cfc/shipments/shipment_fsc_ar.cfc"
+			],
+			[
+				"ar_statment",
+				"finance/invoicing/ar_statement_invoice_downloader.cfm"
+			],
+			[
+				"ar_statment_invoce",
+				"cfc/finance/ar_statement_invoice.cfc"
+			],
+			[
+				"carrier_dnl.cfc",
+				"cfc/carriers/carrier_dnl.cfc"
+			],
+			[
+				"ar_statem",
+				"finance/invoicing/ar_statement_invoice.cfm"
+			],
+			[
+				"statementinv",
+				"shipments/documents/statement_invoicing.cfm"
+			],
+			[
+				"shipment_invoicing",
+				"shipments/documents/statement_invoicing.cfm"
+			],
+			[
+				"statement_",
+				"shipments/documents/statement_invoicing.cfm"
+			],
+			[
+				"statement_invoice",
+				"shipments/documents/statement_invoice_addtl_docs.cfm"
+			],
+			[
+				"shipment_invoice.cfm",
+				"shipments/documents/shipment_invoice.cfm"
+			],
+			[
+				"statement_invoin",
+				"shipments/documents/statement_invoicing.cfm"
+			],
+			[
+				"edge",
+				"css/edge_style.css"
+			],
+			[
+				"satement_invo",
+				"shipments/documents/statement_invoicing.cfm"
+			],
+			[
+				"ar_satem",
+				"cfc/finance/ar_statement_invoice.cfc"
+			],
+			[
+				"shipment_ar_detai",
+				"cfc/shipments/shipment_ar_detail.cfc"
+			],
+			[
+				"ar_statemtnin",
+				"finance/invoicing/script/ar_statement_invoice.js"
+			],
+			[
+				"ar_statemn",
+				"cfc/finance/ar_statement_invoice.cfc"
+			],
+			[
+				"ar_invoice_details",
+				"finance/invoicing/ar_statement_invoice_details.cfm"
+			],
+			[
+				"index.cfm",
+				"billing/advantedge/index.cfm"
+			],
+			[
+				"conig",
+				"cfc/_config/Config.cfc"
+			],
+			[
+				"statement",
+				"cfc/finance/ar_statement_invoice.cfc"
+			],
+			[
+				"reportexport",
+				"cfc/reporting/ReportingExportBO.cfc"
+			],
+			[
+				"retrieve_load_postings",
+				"cfc/boards/retrieve/retrieve_load_postings.cfc"
+			],
+			[
+				"shipment_audits",
+				"cfc/shipments/shipment_audits.cfc"
+			],
+			[
+				"shipments.cfc",
+				"cfc/shipments/shipments.cfc"
+			],
+			[
+				"send_load_posting_request.cfc",
+				"cfc/boards/dat360/load_posting/send/send_load_posting_request.cfc"
+			],
+			[
+				"load_posting.cfc",
+				"cfc/boards/load_posting.cfc"
+			],
+			[
+				"load_posting",
+				"boards/load_posting.cfm"
+			],
+			[
+				"edgestyle",
+				"css/edge_style.css"
+			],
+			[
+				"statement_in",
+				"cfc/finance/ar_statement_invoice.cfc"
+			],
+			[
+				"quotes_quick_adv.js",
+				"pricing/quotes/script/quotes_quick_adv.js"
+			],
+			[
+				"quote.js",
+				"pricing/quotes/script/quote_action.js"
+			],
+			[
+				"quotes_detail.js",
+				"pricing/quotes/script/quote_detail.js"
+			],
+			[
+				"quotes",
+				"test/EmailAlertTests/quotes.cfm"
+			],
+			[
+				"reportingexpor",
+				"cfc/reporting/ReportingExportBO.cfc"
+			],
+			[
+				"reportingexport",
+				"cfc/reporting/ReportingExportBO.cfc"
+			],
+			[
+				"user_role_",
+				"cfc/users/user_role_check.cfc"
+			],
+			[
+				"shipment_leg",
+				"shipments/view/shipment_legs_content_v2.cfm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Development/sublime/learning_angular.sublime-project"
+			],
+			[
+				"learning",
+				"~/Development/sublime/learning_angular.sublime-project"
+			],
+			[
+				"s",
+				"~/Development/sublime/scripts.sublime-project"
+			],
+			[
+				"sc",
+				"~/Development/sublime/scheduled-tasks.sublime-project"
+			],
+			[
+				"scr",
+				"~/Development/sublime/scripts.sublime-project"
+			],
+			[
+				"script",
+				"~/Development/sublime/scripts.sublime-project"
+			],
+			[
+				"scri",
+				"~/Development/sublime/scripts.sublime-project"
+			],
+			[
+				"sch",
+				"~/Development/sublime/scheduled-tasks.sublime-project"
+			],
+			[
+				"shi",
+				"~/Development/sublime/scheduled-tasks.sublime-project"
+			],
+			[
+				"tr",
+				"~/Development/sublime/scheduled-tasks.sublime-project"
+			],
+			[
+				"scrip",
+				"~/Development/sublime/scripts.sublime-project"
+			],
+			[
+				"sche",
+				"~/Development/sublime/scheduled-tasks.sublime-project"
+			],
+			[
+				"cold",
+				"/Users/bryce/Development/sublime/coldbox.sublime-project"
+			],
+			[
+				"j",
+				"/Users/bryce/Development/sublime/jqGrid.sublime-project"
+			],
+			[
+				"so",
+				"/Users/bryce/Development/sublime/scripts.sublime-project"
+			],
+			[
+				"jq",
+				"/Users/bryce/Development/sublime/jqGrid.sublime-project"
+			],
+			[
+				"ssc",
+				"/Users/bryce/Development/sublime/scripts.sublime-project"
+			],
+			[
+				"edge",
+				"/Users/bryce/Development/sublime/edge-tms.sublime-project"
+			],
+			[
+				"e",
+				"/Users/bryce/Development/sublime/scheduled-tasks.sublime-project"
+			],
+			[
+				"scj",
+				"/Users/bryce/Development/sublime/scheduled-tasks.sublime-project"
+			],
+			[
+				"ed",
+				"/Users/bryce/Development/sublime/edge-tms.sublime-project"
+			],
+			[
+				"gru",
+				"/Users/bryce/Development/sublime/grub_pub_app.sublime-project"
+			],
+			[
+				"app",
+				"/Users/bryce/Development/sublime/grub_pub_app.sublime-project"
+			],
+			[
+				"g",
+				"/Users/bryce/Development/sublime/grub_pub.sublime-project"
+			],
+			[
+				"sh",
+				"/Users/bryce/Development/sublime/scheduled-tasks.sublime-project"
+			],
+			[
+				"ech",
+				"/Users/bryce/Development/sublime/scheduled-tasks.sublime-project"
+			],
+			[
+				"schj",
+				"/Users/bryce/Development/sublime/scheduled-tasks.sublime-project"
+			],
+			[
+				"scripts",
+				"/Users/bryce/Development/sublime/scripts.sublime-project"
+			],
+			[
+				"edg",
+				"/Users/bryce/Sites/app-template/includes/js/edge_demo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"A.ActiveXObject"
+			]
+		],
+		"width": 408.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
