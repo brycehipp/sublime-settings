@@ -1,14 +1,24 @@
 {
 	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+		"Sublime-HTMLPrettify"
+	],
 	"installed_packages":
 	[
 		"AndyJS2",
+		"AngularJS",
+		"Babel",
 		"ColdBox Platform",
-		"ColdFusion",
+		"Color Highlighter",
+		"ConvertToUTF8",
 		"Dayle Rees Color Schemes",
 		"DocBlockr",
 		"EclipseJavaFormatter",
+		"EncodingHelper",
 		"Enhanced HTML and CFML",
+		"FindKeyConflicts",
 		"Format SQL",
 		"GitGutter",
 		"Github Tools",
@@ -19,18 +29,27 @@
 		"jQuery Snippets pack",
 		"JsFormat",
 		"JSHint",
+		"JSONLint",
 		"Keymaps",
 		"LESS",
 		"LineEndings",
+		"Material Theme",
 		"Package Control",
 		"ReadmePlease",
+		"Sass",
+		"SCSS",
 		"Sencha",
 		"SideBarEnhancements",
 		"SideBarGit",
 		"Sublime-HTMLPrettify",
+		"Text Pastry",
 		"Theme - Aqua",
+		"Theme - Flatland",
 		"Theme - Soda",
+		"Themr",
 		"Tomorrow Color Schemes",
-		"Trimmer"
+		"TrailingSpaces",
+		"Trimmer",
+		"TypeScript"
 	]
 }
